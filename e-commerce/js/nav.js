@@ -3,7 +3,7 @@ const createNav = () => {
 
     nav.innerHTML = `
     <div class="nav">
-    <img src="images/fashion-removebg.png" class="brand-logo" alt="" />
+    <img src="images/dark-fashion.png" class="brand-logo" alt="" />
     <div class="nav-items">
       <div class="search">
         <input
@@ -22,16 +22,16 @@ const createNav = () => {
       <a href="#" class="link">Home</a>
     </li>
     <li class="link-item">
-      <a href="#" class="link">Women</a>
+      <a href="#women" class="link">Women</a>
     </li>
     <li class="link-item">
-      <a href="#" class="link">Men</a>
+      <a href="#men" class="link">Men</a>
     </li>
     <li class="link-item">
-      <a href="#" class="link">Kids</a>
+      <a href="#women" class="link">Kids</a>
     </li>
     <li class="link-item">
-      <a href="#" class="link">Accessories</a>
+      <a href="#accessories" class="link">Accessories</a>
     </li>
   </ul> `;
 }
